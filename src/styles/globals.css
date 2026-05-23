@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply antialiased bg-[#FBFBFB] text-[#1D1D1F];
+  }
+}
+
+.prose {
+  @apply text-[#1D1D1F] leading-[1.6];
+}
+
+.prose h1 { @apply text-4xl font-semibold tracking-tight mt-12 mb-8; }
+.prose h2 { @apply text-2xl font-semibold tracking-tight mt-10 mb-6; }
+.prose h3 { @apply text-xl font-semibold tracking-tight mt-8 mb-4; }
+.prose p { @apply mb-6 font-normal; }
+.prose ul { @apply list-disc pl-6 mb-8 space-y-3; }
+.prose ol { @apply list-decimal pl-6 mb-8 space-y-3; }
+.prose blockquote { @apply border-l-2 border-black/10 pl-8 italic my-10 text-black/50 font-light text-lg; }
+.prose code { @apply bg-black/[0.03] px-1.5 py-0.5 rounded text-[0.9em] font-mono border border-black/[0.05]; }
+.prose pre { @apply bg-[#1D1D1F] text-white p-8 rounded-3xl overflow-x-auto my-10 shadow-xl; }
+.prose pre code { @apply bg-transparent p-0 text-white border-none; }
+.prose img { @apply my-14 rounded-3xl shadow-2xl; }
+.prose hr { @apply my-16 border-black/5; }
