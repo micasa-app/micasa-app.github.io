@@ -39,7 +39,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               <div className="w-10 h-10 bg-black rounded-2xl flex items-center justify-center shadow-lg shadow-black/10">
                 <BookOpen className="text-white" size={20} />
               </div>
-              <h1 className="font-semibold text-xl tracking-tight">Knowledge</h1>
+              <h1 className="font-semibold text-xl tracking-tight">Articles</h1>
             </div>
 
             <div className="relative">

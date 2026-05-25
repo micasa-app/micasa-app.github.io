@@ -20,14 +20,14 @@ export const Home: React.FC = () => {
             <span className="text-black/20 italic">MiCasa.</span>
           </h1>
           <p className="text-xl md:text-2xl text-black/30 font-medium leading-relaxed max-w-2xl mx-auto mb-12">
-            A minimalist workspace designed for clarity, knowledge, and refined productivity.
+            A minimalist workspace designed for clarity, ideas, and refined productivity.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <NavLink 
-              to="/knowledge" 
+              to="/articles" 
               className="px-10 py-4 bg-black text-white rounded-2xl font-semibold shadow-xl shadow-black/10 hover:scale-105 transition-transform"
             >
-              Explore Hub
+              Read Articles
             </NavLink>
             <NavLink 
               to="/about" 
@@ -41,7 +41,7 @@ export const Home: React.FC = () => {
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {[
-          { icon: BookOpen, title: 'Deep Insights', desc: 'Curated knowledge items with real-world application and depth.' },
+          { icon: BookOpen, title: 'Deep Insights', desc: 'Curated articles with real-world application and depth.' },
           { icon: LayoutIcon, title: 'Minimal UI', desc: 'Focus on what matters most with a clean, clutter-free interface.' },
           { icon: Zap, title: 'Static Speed', desc: 'Blazing fast load times optimized for performance and reliability.' },
         ].map((feature, i) => (

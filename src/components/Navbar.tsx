@@ -23,7 +23,7 @@ export const Navbar: React.FC = () => {
 
   const navLinks = [
     { to: '/', label: 'Home', icon: Home },
-    { to: '/knowledge', label: 'Knowledge Hub', icon: BookOpen },
+    { to: '/articles', label: 'Articles', icon: BookOpen },
     { to: '/about', label: 'About', icon: Info },
   ];
 
@@ -46,16 +46,14 @@ export const Navbar: React.FC = () => {
         </NavLink>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center bg-black/[0.03] rounded-2xl p-1 border border-black/[0.02]">
+        <nav className="hidden md:flex items-center gap-8">
           {navLinks.map(({ to, label }) => (
             <NavLink
               key={to}
               to={to}
               className={({ isActive }) => cn(
-                "px-6 py-2 rounded-xl text-sm font-medium transition-all",
-                isActive 
-                  ? "bg-white text-black shadow-sm" 
-                  : "text-black/40 hover:text-black hover:bg-black/[0.02]"
+                "py-1 text-sm font-medium transition-all border-b-2 border-transparent text-black/40 hover:text-black",
+                isActive && "text-black border-black/80"
               )}
             >
               {label}

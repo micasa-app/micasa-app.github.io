@@ -4,7 +4,7 @@ import { Sidebar } from '../components/Sidebar';
 import { ContentArea } from '../components/ContentArea';
 import { useKnowledge } from '../hooks/useKnowledge';
 
-export const KnowledgeHubPage: React.FC = () => {
+export const ArticlesPage: React.FC = () => {
   const {
     filteredItems,
     selectedId,
