@@ -2,7 +2,7 @@
 title: Effective Learning Strategies
 date: 2026-03-22
 tags: [learning, productivity]
-author: Knowledge Hub
+author: self
 ---
 
 # Effective Learning Strategies

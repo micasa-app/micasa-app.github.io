@@ -1,6 +1,5 @@
 {
   "name": "MiCasa",
-  "description": "A refined multi-page application for home management, knowledge sharing, and professional presence.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "description": "A refined multi-page application for home management, article publishing, and professional presence.",
+  "requestFramePermissions": []
 }

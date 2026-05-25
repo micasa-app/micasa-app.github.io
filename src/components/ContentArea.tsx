@@ -26,7 +26,7 @@ export const ContentArea: React.FC<ContentAreaProps> = ({
           <div className="w-24 h-24 bg-black/[0.02] rounded-[40px] flex items-center justify-center mx-auto mb-10">
             <BookOpen size={40} className="text-black/10" />
           </div>
-          <h2 className="text-4xl font-semibold tracking-tight mb-4">Knowledge Hub</h2>
+          <h2 className="text-4xl font-semibold tracking-tight mb-4">Articles</h2>
           <p className="text-black/30 leading-relaxed mb-12 font-medium">
             A curated space for learnings, insights, and actionable knowledge.
           </p>
@@ -95,7 +95,7 @@ export const ContentArea: React.FC<ContentAreaProps> = ({
           </div>
 
           <footer className="mt-32 pt-16 border-t border-black/[0.03] flex flex-col md:flex-row justify-between items-center gap-8 text-black/20 text-[10px] font-bold uppercase tracking-widest">
-            <p>© 2026 Knowledge Hub — Authentic & Actionable</p>
+            <p>© 2026 Articles — Authentic & Actionable</p>
             <div className="flex gap-8">
               <a href="#" className="hover:text-black transition-colors">Twitter</a>
               <a href="#" className="hover:text-black transition-colors">GitHub</a>
